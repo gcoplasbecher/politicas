@@ -1,6 +1,6 @@
 # Política e Instruções de Exclusão de Dados do Usuário
 
-## Última Atualização: [Inserir Data Atual]
+## Última Atualização: 09/12/2025
 
 Este documento detalha como você pode solicitar a exclusão permanente de seus dados pessoais coletados e processados pelo nosso aplicativo. Este processo está em conformidade com a Lei Geral de Proteção de Dados (LGPD) do Brasil, garantindo transparência e controle sobre seus dados.
 

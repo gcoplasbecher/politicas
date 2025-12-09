@@ -1,6 +1,6 @@
 # Política de Privacidade
 
-## Última Atualização: [Inserir Data Atual]
+## Última Atualização: 09/12/2025
 
 Esta Política de Privacidade descreve como o aplicativo coleta, usa, armazena e compartilha suas informações pessoais quando você utiliza nossos serviços. Ao usar este aplicativo, você concorda com as práticas descritas neste documento. Leia atentamente para entender como protegemos seus dados.
 

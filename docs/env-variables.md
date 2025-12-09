@@ -1,6 +1,6 @@
 # Variáveis de Ambiente Necessárias
 
-## Última Atualização: [Inserir Data]
+## Última Atualização: 09/12/2025
 
 Este documento lista todas as variáveis de ambiente (env vars) essenciais para o funcionamento correto do aplicativo, especialmente para integrações com APIs da Meta (WhatsApp, Instagram e Graph API). As variáveis são carregadas a partir de um arquivo `.env` no diretório raiz do projeto.
 

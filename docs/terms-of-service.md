@@ -1,6 +1,6 @@
 # Termos de Serviço
 
-## Última Atualização: [Inserir Data Atual]
+## Última Atualização: 09/12/2025
 
 Bem-vindo aos Termos de Serviço do aplicativo. Estes termos regem seu acesso e uso dos serviços oferecidos, incluindo integrações com APIs da Meta (WhatsApp, Instagram e Graph API). Ao aceitar estes termos, você concorda em cumprir todas as regras descritas. Caso não concorde, não utilize nossos serviços.
 

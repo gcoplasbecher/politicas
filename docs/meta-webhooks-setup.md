@@ -1,6 +1,6 @@
 # Configuração de Webhooks para Meta APIs (WhatsApp / Instagram)
 
-## Última Atualização: [Inserir Data Atual]
+## Última Atualização: 09/12/2025
 
 Este guia técnico detalha o passo a passo para configurar e testar webhooks para integrar com as APIs da Meta Platforms (WhatsApp Business API, Instagram Graph API e Graph API geral). Webhooks permitem receber notificações em tempo real sobre eventos como mensagens recebidas ou interações.
 
