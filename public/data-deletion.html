@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Exclusão de Dados - LGPD</title>
+</head>
+<body>
+    <header>
+        <h1>Política e Instruções de Exclusão de Dados do Usuário</h1>
+        <p><strong>Última Atualização: [Inserir Data Atual]</strong></p>
+    </header>
+
+    <section>
+        <p>Este documento detalha como você pode solicitar a exclusão permanente de seus dados pessoais coletados e processados pelo nosso aplicativo. Este processo está em conformidade com a Lei Geral de Proteção de Dados (LGPD) do Brasil, garantindo transparência e controle sobre seus dados.</p>
+        <p>O direito à exclusão é fundamental e gratuito. Após exclusão, seus dados não poderão ser recuperados.</p>
+    </section>
+
+    <section>
+        <h2>1. Fundamentos Legais</h2>
+        <ul>
+            <li><strong>Base Legal</strong>: Artigo 18, §1º da LGPD, que garante o direito à anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade.</li>
+            <li><strong>Escopo</strong>: Aplicável a todos os dados pessoais, incluindo aqueles integrados com APIs da Meta (WhatsApp, Instagram, Graph API).</li>
+            <li><strong>Exceções</strong>: Dados não serão excluídos se houver obrigação legal de retenção (ex: cumprimento de lei, ordens judiciais) ou se necessários para defesa de direitos em processo judicial.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>2. Dados Elegíveis para Exclusão</h2>
+        <ul>
+            <li><strong>Dados Coletados</strong>: Nome, e-mail, telefone, Tokens de autenticação (ex: verify_token, app_secret, IDs Meta), logs de uso, histórico de mensagens (armazenado temporariamente).</li>
+            <li><strong>Dados Integrados</strong>: Identificadores enviados via webhooks, conteúdo de mensagens processado pelas APIs Meta.</li>
+            <li><strong>Dados Automáticos</strong>: Dados técnicos como IP, dispositivo, histórico de sessões.</li>
+        </ul>
+        <p>A exclusão inclui anonimização ou eliminação irreversível, conforme o caso.</p>
+    </section>
+
+    <section>
+        <h2>3. Processo de Solicitação de Exclusão</h2>
+        <p>Para solicitar exclusão, siga estes passos:</p>
+
+        <h3>Passo 1: Preparação</h3>
+        <ul>
+            <li>Certifique-se de desconectar todas as contas Meta vinculadas no aplicativo (WhatsApp, Instagram).</li>
+            <li>Baixe qualquer dado pessoal que desejar reter (ex: histórico de conversas), utilizando o direito de portabilidade na LGPD.</li>
+        </ul>
+
+        <h3>Passo 2: Submissão da Solicitação</h3>
+        <ul>
+            <li>Envie e-mail para [exclusao@app.com] com o assunto "Solicitação de Exclusão de Dados".</li>
+            <li>Inclua as seguintes informações:</li>
+            <ul>
+                <li>Nome completo.</li>
+                <li>E-mail associado à conta.</li>
+                <li>Número de telefone (se aplicável).</li>
+                <li>Identificação do usuário (ID da conta ou hash único).</li>
+                <li>Motivo opcional da solicitação (ex: revogação de consentimento).</li>
+                <li>Assinatura digital ou confirmação de identidade (ex: foto de documento).</li>
+            </ul>
+        </ul>
+        <p><strong>Exemplo de Solicitação:</strong></p>
+        <pre>
+Assunto: Solicitação de Exclusão de Dados
+
+Prezado Suporte,
+
+Solicito a exclusão permanente de meus dados conforme LGPD. Minhas informações:
+- Nome: [Seu Nome]
+- E-mail: [seuemail@example.com]
+- Motivo: [Descrever]
+- Confirmo ser o titular dos dados.
+
+Atenciosamente,
+[Seu Nome]
+        </pre>
+
+        <h3>Passo 3: Verificação</h3>
+        <ul>
+            <li>Aguarde confirmação de recebimento em até 24 horas.</li>
+            <li>Podemos solicitar informações adicionais para verificar identidade, conforme LGPD (art. 19).</li>
+        </ul>
+
+        <h3>Passo 4: Execução</h3>
+        <ul>
+            <li>Processamento: Até 15 dias após verificação, conforme LGPD.</li>
+            <li>Confirmação: E-mail notificando a conclusão da exclusão.</li>
+            <li>Em casos complexos (ex: dados distribuídos), prazo estendido para 30 dias.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>4. Como os Dados São Removidos</h2>
+        <ul>
+            <li><strong>Armazenamento</strong>: Dados em bancos seguros (ex: criptografados com AES-256) são primeiro anonimizados (removendo identificadores) e depois deletados permanentemente.</li>
+            <li><strong>Servidores e Backup</strong>: Dados excluídos de produção, mídia removida, e cópias de backup eliminadas ou anonimizadas dentro de 30 dias.</li>
+            <li><strong>Integrações Meta</strong>: Tokens e IDs desvinculados das APIs; notificamos Meta se necessário.</li>
+            <li><strong>Logs e Auditoria</strong>: Mantemos registro mínimo da exclusão (sem dados pessoais) para compliance por 5 anos.</li>
+            <li><strong>Irreversibilidade</strong>: Após exclusão, dados não podem ser restaurados; realize backups antes se desejar.</li>
+        </ul>
+
+        <h3>4.1 Métodos Técnicos</h3>
+        <ul>
+            <li>Para dados em banco: Comando SQL <code>DELETE</code> seguido de <code>ANONYMIZE</code>.</li>
+            <li>Para arquivos: Remoção física em storage cloud.</li>
+            <li>Webhooks: Desconexão do endpoint, exclusão de historial de notificações.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>5. Direito de Portabilidade Antes da Exclusão</h2>
+        <p>Antes de excluir, você pode solicitar portabilidade:</p>
+        <ul>
+            <li>Envie solicitação para [portabilidade@app.com].</li>
+            <li>Recebido em formato estruturado (JSON/XML) em até 15 dias.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>6. Outros Direitos Relacionados (LGPD)</h2>
+        <ul>
+            <li><strong>Acesso</strong>: Veja dados processados enviando para [acesso@app.com].</li>
+            <li><strong>Correção</strong>: Solicite atualizações via [correcao@app.com].</li>
+            <li><strong>Revogação de Consentimento</strong>: Para dados opcionais, disponível em configurações do app.</li>
+        </ul>
+        <p>Em caso de recusa ou dúvida, pode reclamar à ANPD (Autoridade Nacional de Proteção de Dados).</p>
+    </section>
+
+    <section>
+        <h2>7. Contato</h2>
+        <p>Para solicitações de exclusão ou dúvidas:</p>
+        <ul>
+            <li><strong>E-mail</strong>: [exclusao@app.com]</li>
+            <li><strong>Telefone</strong>: [inserir telefone]</li>
+            <li><strong>DPO (Data Protection Officer)</strong>: [nome e contato]</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Esta política garante controle sobre seus dados. Solicitações são processadas com prioridade máxima.</p>
+    </footer>
+</body>
+</html>
